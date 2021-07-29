@@ -1,0 +1,264 @@
+﻿@model TestPDF.Models.Home
+@{
+    ViewBag.Title = "FormularioLLeno";
+}
+<form action="" method="post">
+    <div class="row">
+        <div class="container thumbnail">
+            <div class="col-xs-2 thumbnail">
+                <p>Logo</p>
+            </div>
+            <div class="col-xs-4 thumbnail">
+                <p style="text-align:center;"><strong>FINISH GOOD SPECIFICATION</strong></p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p>14Q0402</p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p>FGS201312/13W1006</p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <b><small>TIMESTAMP START:@Model.TimeStart</small></b>
+                <br />
+                <b><small>TIMESTAMP FINISH:@Model.TimeFinish</small></b>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p><strong>CRITICAL OBSERVATIONS:@Model.CriticalOb</strong></p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p><strong>BUILD by:@Model.BuildBy</strong></p>
+                <br />
+                <p><strong>REVISED by:@Model.RevisedBy</strong></p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p><strong>PRJID/PO:@Model.PrjPo</strong></p>
+                <br />
+                <p><strong>FOLIO FOLDER:@Model.FolioFolder</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container thumbnail ">
+            <div class="col-xs-12 thumbnail " style="text-align:center;">
+                <strong>BILL OF MATERIAL (BOM)</strong>
+            </div>
+            <!--Contenido despues de BOM-->
+            <div class="col-xs-2 thumbnail">
+                <p><strong>PART NUM</strong></p>
+                <p><strong>@Model.PartNum</strong></p>
+            </div>
+            <div class="col-xs-1 thumbnail">
+                <p><strong>QTY:</strong></p>
+                <p><strong>@Model.Qty</strong></p>
+            </div>
+            <div class="col-xs-1 thumbnail">
+                <p><strong>REV:</strong></p>
+                <p><strong>@Model.Rev</strong></p>
+            </div>
+            <div class="col-xs-1 thumbnail">
+                <p><strong>CODE</strong></p>
+                <p><strong>@Model.Code</strong></p>
+            </div>
+            <div class="col-xs-1 thumbnail">
+                <p><strong>Q</strong></p>
+            </div>
+            <!--Fin del div con dos elementos-->
+            <div class="col-xs-3 thumbnail">
+                <p><strong>DESCRIPTION</strong></p>
+                <p><strong>@Model.Description</strong></p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p><strong>SERIAL NUM</strong></p>
+                <p><strong>@Model.SerialNum</strong></p>
+            </div>
+            <!-- Contenido por debajo de Gabinete Tienda Nueva Oxxo-->
+            <div class=" col-xs-3 thumbnail">
+                <p><strong>PLAT TN0</strong></p>
+            </div>
+            <!--Estos input pertenecen a rev-->
+            <div class="col-xs-1 thumbnail">
+                <input style="width:100%;" type="text" name="RevUno" value="@Model.RevUno" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevDos" value="@Model.RevDos" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevTres" value="@Model.RevTres" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevCuatro" value="@Model.RevCuatro" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevCinco" value="@Model.RevCinco" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevSeis" value="@Model.RevSeis" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevSiete" value="@Model.RevSiete" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevOcho" value="@Model.RevOcho" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevNueve" value="@Model.RevNueve" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevDiez" value="@Model.RevDiez" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevOnce" value="@Model.RevOnce" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevDoce" value="@Model.RevDoce" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" name="RevTrece" value="@Model.RevTrece" />
+
+            </div>
+            <div class="col-xs-2 thumbnail">
+                <input style="width:90%;" type="text" value="@Model.CodeUno" name="CodeUno" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="191U4090" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="WANTTNODEP1" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0017" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0010" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0010" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0055" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0007" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0008" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="037H415128" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0053" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="080Z0061" />
+                <br />
+                <br />
+                <input style="width:90%;" type="text" value="191U4143" />
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <p style="font-size:12px;" class="">PLATINA CABLEADA TABLERO TN OXXO</p>
+                <p style="font-size:12px;" class="">GABINETE HIMEL 800X600X300/LAMINA</p>
+                <p style="font-size:14px;" class="">DEMAND METER 120/208-240 VAC</p>
+                <p style="font-size:12px;" class=""> AK-XM 205B,8AI/8DO,OVR,EURO STYLE CONN</p>
+                <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
+                <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
+                <p style="font-size:12px;" class="">AK-PS 250,2.5A/100-240V POWER SUPPLY</p>
+                <p style="font-size:14px;" class="">AK-XM 101A EXT.MODULE, 8AI</p>
+                <p style="font-size:14px;" class="">AK-XM 102A EXT.MODULE, 8AI</p>
+                <p style="font-size:15px;" class="">CI 25-2 CONT 25A,208-230V/60HZ</p>
+                <p style="font-size:14px;" class="">AK-PS 075,2.5A/100-240V POWER SUPPLY</p>
+                <p style="font-size:12px;" class="">AK2 COMM MODULE (LONWORKS TP-78)</p>
+                <p style="font-size:12px;" class="">PHASE LOSS PROTECT W/TRANSF 230V</p>
+            </div>
+            <div class="col-xs-3 thumbnail">
+                <input style="width:100%;" type="text" value="@Model.SerialUno" name="SerialUno" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialDos" name="SerialDos" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialTres" name="SerialTres" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialCuatro" name="SerialCuatro" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialCinco" name="SerialCinco" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialSeis" name="SerialSeis" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialSiete" name="SerialSiete" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialOcho" name="SerialOcho" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialNueve" name="SerialNueve" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialDiez" name="SerialDiez" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialOnce" name="SerialOnce" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialDoce" name="SerialDoce" />
+                <br />
+                <br />
+                <input style="width:100%;" type="text" value="@Model.SerialTrece" name="SerialTrece" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container thumbnail">
+            <div class="container thumbnail">
+                <div class="col-xs-12" style="text-align:center;">
+                    <p><strong>DRAWING/QUEALITY/PACKING INSPECTION</strong></p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <p><strong>EWD DRAWING</strong></p>
+                <p><strong>DSR DRAWING</strong></p>
+                <p><strong>INSIDE-BOXES</strong></p>
+                <p><strong>PLATE LABELS</strong></p>
+                <p><strong>ID FRONTAL</strong></p>
+                <p><strong>FINAL PACKING</strong></p>
+                <p><strong>TURN-ON TEST</strong></p>
+                <p><strong>GROUND WIRE</strong></p>
+            </div>
+            <div class="col-xs-2">
+                <input type="text" name="Ewd" value="@Model.Ewd" />
+                <input type="text" name="Dsr" value="@Model.Dsr" />
+                <input type="text" name="Inside" value="@Model.Inside"/>
+                <input type="text" name="Plate" value="@Model.Plate" />
+                <input type="text" name="IdFrontal" value="@Model.IdFrontal" />
+                <input type="text" name="FinalPacking" value="@Model.FinalPacking"/>
+                <input type="text" name="TurnTest" value="@Model.TurnTest"/>
+                <input type="text" name="Ground" value="@Model.Ground" />
+            </div>
+            <div class="col-xs-4">
+                <p><strong>DATABASE TEST VERSION</strong></p>
+                <p><strong>WAS & SEQUENCE VERSION</strong></p>
+                <p><strong>45° & CUT EDGES</strong></p>
+                <p><strong>ADDED FILES TO F.G</strong></p>
+                <p><strong>FRONT ID = PLATE ID</strong></p>
+                <p><strong>DOOR LABELS</strong></p>
+                <p><strong>WIRE TAGs FROM-TO</strong></p>
+            </div>
+            <div class="col-xs-2">
+                <input type="text" name="DatabaseTest" value="@Model.DatabaseTest" />
+                <input type="text" name="Was" value="@Model.Was" />
+                <input type="text" name="CutEdges" value="@Model.CutEdges"  />
+                <input type="text" name="AddedFiles" value="@Model.AddedFiles"  />
+                <input type="text" name="FrontalId" value="@Model.FrontId"  />
+                <input type="text" name="DoorLabels" value="@Model.DoorLabels"  />
+                <input type="text" name="WireTags" value="@Model.WireTags"  />
+            </div>
+        </div>
+    </div>
+</form>
