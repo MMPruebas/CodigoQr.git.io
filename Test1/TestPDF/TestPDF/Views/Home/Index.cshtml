@@ -3,269 +3,296 @@
 }
 
 <form action="FormularioLLeno" method="post">
-    <div class="row">
-        <div class="container thumbnail">
-            <div class="col-xs-2 thumbnail">
-                <p></p>
-            </div>
-            <div class="col-xs-4 thumbnail">
-                <p style="text-align:center;"><strong>FINISH GOOD SPECIFICATION</strong></p>
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p>14Q0402</p>
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p>FGS201312/13W1006</p>
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p><strong>TIMESTAMP START:</strong></p>
-                <input style="width:100%;" id="Text2" name="TimeStart" type="text" />
-                <br />
-                <p><strong>TIMESTAMP FINISH:</strong></p>
-                <input style="width:100%;" id="Text1" name="TimeFinish" type="text" />
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p><strong>CRITICAL OBSERVATIONS:</strong></p>
-                <input style="width:100%;" id="Text3" name="CriticalOb" type="text" />
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p><strong>BUILD by:</strong></p>
-                <input style="width:100%;" id="Text4" name="BuildBy" type="text" />
-                <br />
-                <p><strong>REVISED by:</strong></p>
-                <input style="width:100%;" id="Text5" name="RevisedBy" type="text" />
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p><strong>PRJID/PO:</strong></p>
-                <input style="width:100%;" id="Text6" name="PrjPo" type="text" />
-                <br />
-                <p><strong>FOLIO FOLDER:</strong></p>
-                <input style="width:100%;" id="Text7" name="FolioFolder" type="text" />
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 thumbnail">
+                    <p></p>
+                </div>
+                <div class="col-md-4 thumbnail">
+                    <p style="text-align:center;"><strong>FINISH GOOD SPECIFICATION</strong></p>
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p>14Q0402</p>
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p>FGS201312/13W1006</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="container thumbnail ">
-            <div class="col-xs-12 thumbnail " style="text-align:center;">
-                <strong>BILL OF MATERIAL (BOM)</strong>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 thumbnail">
+                    <p><strong>TIMESTAMP START:</strong></p>
+                    <input style="width:100%;" id="Text2" name="TimeStart" type="text" />
+                    <br />
+                    <p><strong>TIMESTAMP FINISH:</strong></p>
+                    <input style="width:100%;" id="Text1" name="TimeFinish" type="text" />
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p><strong>CRITICAL OBSERVATIONS:</strong></p>
+                    <input style="width:100%;" id="Text3" name="CriticalOb" type="text" />
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p><strong>BUILD by:</strong></p>
+                    <input style="width:100%;" id="Text4" name="BuildBy" type="text" />
+                    <br />
+                    <p><strong>REVISED by:</strong></p>
+                    <input style="width:100%;" id="Text5" name="RevisedBy" type="text" />
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p><strong>PRJID/PO:</strong></p>
+                    <input style="width:100%;" id="Text6" name="PrjPo" type="text" />
+                    <br />
+                    <p><strong>FOLIO FOLDER:</strong></p>
+                    <input style="width:100%;" id="Text7" name="FolioFolder" type="text" />
+                </div>
             </div>
-            <!--Contenido despues de BOM-->
-            <div class="col-xs-2 thumbnail">
-                <p><strong>PART NUM</strong></p>
-                <input id="Text8" type="text" name="PartNum" />
-            </div>
-            <div class="col-xs-1 thumbnail">
-                <p><strong>QTY</strong></p>
-                <input style="width:100%;" id="Text8" type="text" name="Qty" />
-            </div>
-            <div class="col-xs-1 thumbnail">
-                <p><strong>REV</strong></p>
-                <input style="width:100%;" id="Text9" type="text" name="Rev"/>
-            </div>
-            <div class="col-xs-1 thumbnail">
-                <p><strong>CODE</strong></p>
+        </div>
 
-                <input style="width:100%;" id="Text10" type="text" name="Code" />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 thumbnail " style="text-align:center;">
+                    <strong>BILL OF MATERIAL (BOM)</strong>
+                </div>
             </div>
-            <div class="col-xs-1 thumbnail">
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!--Contenido despues de BOM-->
+                <div class="col-md-2 thumbnail">
+                    <p style="width:100%;"><strong>PART NUM</strong></p>
+                    <input style="width:100%;" id="Text8" type="text" name="PartNum" />
+                </div>
+                <div class="col-md-1 thumbnail">
+                    <p><strong>QTY</strong></p>
+                    <input style="width:100%;" id="Text8" type="text" name="Qty" />
+                </div>
+                <div class="col-md-1 thumbnail">
+                    <p><strong>REV</strong></p>
+                    <input style="width:100%;" id="Text9" type="text" name="Rev" />
+                </div>
+                <div class="col-md-1 thumbnail">
+                    <p><strong>CODE</strong></p>
+
+                    <input style="width:100%;" id="Text10" type="text" name="Code" />
+                </div>
+                <div class="col-md-1 thumbnail">
                     <p><strong>Q</strong></p>
-            </div>
-            <!--Fin del div con dos elementos-->
-            <div class="col-xs-3 thumbnail">
-                <p><strong>DESCRIPTION</strong></p>
-                <input style="width:100%" id="Text11" type="text" name="Description" />
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p><strong>SERIAL NUM</strong></p>
-                <input style="width:100%" id="Text12" type="text" name="SerialNum" />
-            </div>
-            <!-- Contenido por debajo de Gabinete Tienda Nueva Oxxo-->
-            <div class=" col-xs-3 thumbnail">
-                <p><strong>PLAT TN0</strong></p>
-            </div>
-            <!--Estos input pertenecen a rev-->
-            <div class="col-xs-1 thumbnail">
-                <input style="width:100%;" type="text" name="RevUno" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevDos" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevTres" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevCuatro" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevCinco" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevSeis" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevSiete" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevOcho" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevNueve" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevDiez"  value=""/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevOnce" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevDoce" value="" />
-                <br />
-                <br />
-                <input style="width:100%;" type="text" name="RevTrece" value="" />
-
-            </div>
-            <div class="col-xs-2 thumbnail">
-                <input style="width:90%;" type="text" value="" name="CodeUno" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="191U4090" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="WANTTNODEP1" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0017" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0010" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0010" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0055" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0007" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0008" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="037H415128" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0053" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="080Z0061" />
-                <br />
-                <br />
-                <input style="width:90%;" type="text" value="191U4143" />
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <p style="font-size:12px;" class="">PLATINA CABLEADA TABLERO TN OXXO</p>
-                <p style="font-size:12px;" class="">GABINETE HIMEL 800X600X300/LAMINA</p>
-                <p style="font-size:14px;" class="">DEMAND METER 120/208-240 VAC</p>
-                <p style="font-size:12px;" class=""> AK-XM 205B,8AI/8DO,OVR,EURO STYLE CONN</p>
-                <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
-                <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
-                <p style="font-size:12px;" class="">AK-PS 250,2.5A/100-240V POWER SUPPLY</p>
-                <p style="font-size:14px;" class="">AK-XM 101A EXT.MODULE, 8AI</p>
-                <p style="font-size:14px;" class="">AK-XM 102A EXT.MODULE, 8AI</p>
-                <p style="font-size:15px;" class="">CI 25-2 CONT 25A,208-230V/60HZ</p>
-                <p style="font-size:14px;" class="">AK-PS 075,2.5A/100-240V POWER SUPPLY</p>
-                <p style="font-size:12px;" class="">AK2 COMM MODULE (LONWORKS TP-78)</p>
-                <p style="font-size:12px;" class="">PHASE LOSS PROTECT W/TRANSF 230V</p>
-            </div>
-            <div class="col-xs-3 thumbnail">
-                <input style="width:100%;" type="text" value="" name="SerialUno"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialDos"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialTres"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialCuatro"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialCinco"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialSeis"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialSiete"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialOcho"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialNueve"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialDiez"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialOnce"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialDoce"/>
-                <br />
-                <br />
-                <input style="width:100%;" type="text" value="" name="SerialTrece"/>
-            </div>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="container thumbnail">
-            <div class="col-xs-12" style="text-align:center;">
-                <p><strong>DRAWING/QUEALITY/PACKING INSPECTION</strong></p>
-            </div>
-            <div class="col-xs-4">
-                <p><strong>EWD DRAWING</strong></p>
-                <p><strong>DSR DRAWING</strong></p>
-                <p><strong>INSIDE-BOXES</strong></p>
-                <p><strong>PLATE LABELS</strong></p>
-                <p><strong>ID FRONTAL</strong></p>
-                <p><strong>FINAL PACKING</strong></p>
-                <p><strong>TURN-ON TEST</strong></p>
-                <p><strong>GROUND WIRE</strong></p>
-            </div>
-            <div class="col-xs-2">
-                <input style="width:100%;" type="text" name="Ewd" value="" />
-                <input style="width:100%;" type="text" name="Dsr" value="" />
-                <input style="width:100%;" type="text" name="Inside" value="" />
-                <input style="width:100%;" type="text" name="Plate" value="" />
-                <input style="width:100%;" type="text" name="IdFrontal" value="" />
-                <input style="width:100%;" type="text" name="FinalPacking" value="" />
-                <input style="width:100%;" type="text" name="TurnTest" value="" />
-                <input style="width:100%;" type="text" name="Ground" value="" />
-            </div>
-            <div class="col-xs-4">
-                <p><strong>DATABASE TEST VERSION</strong></p>
-                <p><strong>WAS & SEQUENCE VERSION</strong></p>
-                <p><strong>45° & CUT EDGES</strong></p>
-                <p><strong>ADDED FILES TO F.G</strong></p>
-                <p><strong>FRONT ID = PLATE ID</strong></p>
-                <p><strong>DOOR LABELS</strong></p>
-                <p><strong>WIRE TAGs FROM-TO</strong></p>
-            </div>
-            <div class="col-xs-2">
-                <input style="width:100%;" type="text" name="DatabaseTest" value="" />
-                <input style="width:100%;" type="text" name="Was" value="" />
-                <input style="width:100%;" type="text" name="CutEdges" value="" />
-                <input style="width:100%;" type="text" name="AddedFiles" value="" />
-                <input style="width:100%;" type="text" name="FrontId" value="" />
-                <input style="width:100%;" type="text" name="DoorLabels" value="" />
-                <input style="width:100%;" type="text" name="WireTags" value="" />
+                </div>
+                <!--Fin del div con dos elementos-->
+                <div class="col-md-3 thumbnail">
+                    <p ><small>DESCRIPTION</small></p>
+                    <input style="width:100%" id="Text11" type="text" name="Description" />
+                </div>
+                <div class="col-md-3 thumbnail">
+                    <p><strong>SERIAL NUM</strong></p>
+                    <input style="width:100%" id="Text12" type="text" name="SerialNum" />
+                </div>
             </div>
         </div>
-       
-    </div>
+    
+        <div class="container-fluid  ">
+            <div class="row">
+                <!-- Contenido por debajo de Gabinete Tienda Nueva Oxxo-->
+                <div class=" col-xs-3 thumbnail">
+                    <p><strong>PLAT TN0</strong></p>
+                </div>
+                <!--Estos input pertenecen a rev-->
+                <div class="col-sm-1 thumbnail">
+                    <p><strong>REV</strong></p>
+                    <input style="width:100%;" type="text" name="RevUno" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevDos" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevTres" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevCuatro" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevCinco" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevSeis" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevSiete" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevOcho" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevNueve" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevDiez" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevOnce" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevDoce" value="" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" name="RevTrece" value="" />
+
+                </div>
+                <!--Estos input pertenecen a Code-->
+                <div class="col-sm-2 thumbnail">
+                    <p><strong>CODE</strong></p>
+                    <input style="width:90%;" type="text" value="" name="CodeUno" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="191U4090" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="WANTTNODEP1" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0017" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0010" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0010" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0055" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0007" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0008" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="037H415128" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0053" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="080Z0061" />
+                    <br />
+                    <br />
+                    <input style="width:90%;" type="text" value="191U4143" />
+                </div>
+                <!--Estos input pertenecen a Description-->
+                <div class="col-sm-3 thumbnail">
+                    <p><strong>DESCRIPTION</strong></p>
+                    <p style="font-size:12px;" class="">PLATINA CABLEADA TABLERO TN OXXO</p>
+                    <p style="font-size:12px;" class="">GABINETE HIMEL 800X600X300/LAMINA</p>
+                    <p style="font-size:14px;" class="">DEMAND METER 120/208-240 VAC</p>
+                    <p style="font-size:12px;" class=""> AK-XM 205B,8AI/8DO,OVR,EURO STYLE CONN</p>
+                    <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
+                    <p style="font-size:12px;" class="">AK-XM205A,8AI/8DO,EURO STYLE CONN</p>
+                    <p style="font-size:12px;" class="">AK-PS 250,2.5A/100-240V POWER SUPPLY</p>
+                    <p style="font-size:14px;" class="">AK-XM 101A EXT.MODULE, 8AI</p>
+                    <p style="font-size:14px;" class="">AK-XM 102A EXT.MODULE, 8AI</p>
+                    <p style="font-size:15px;" class="">CI 25-2 CONT 25A,208-230V/60HZ</p>
+                    <p style="font-size:14px;" class="">AK-PS 075,2.5A/100-240V POWER SUPPLY</p>
+                    <p style="font-size:12px;" class="">AK2 COMM MODULE (LONWORKS TP-78)</p>
+                    <p style="font-size:12px;" class="">PHASE LOSS PROTECT W/TRANSF 230V</p>
+                </div>
+                <!--Estos input pertenecen a Serial Num-->
+                <div class="col-sm-3 thumbnail">
+                    <p><strong>SERIAL NUM</strong></p>
+                    <input style="width:100%;" type="text" value="" name="SerialUno" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialDos" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialTres" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialCuatro" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialCinco" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialSeis" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialSiete" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialOcho" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialNueve" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialDiez" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialOnce" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialDoce" />
+                    <br />
+                    <br />
+                    <input style="width:100%;" type="text" value="" name="SerialTrece" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" style="text-align:center;">
+                    <p><strong>DRAWING/QUEALITY/PACKING INSPECTION</strong></p>
+                </div>
+            </div>
+        </div> 
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><strong>EWD DRAWING</strong></p>
+                    <p><strong>DSR DRAWING</strong></p>
+                    <p><strong>INSIDE-BOXES</strong></p>
+                    <p><strong>PLATE LABELS</strong></p>
+                    <p><strong>ID FRONTAL</strong></p>
+                    <p><strong>FINAL PACKING</strong></p>
+                    <p><strong>TURN-ON TEST</strong></p>
+                    <p><strong>GROUND WIRE</strong></p>
+                </div>
+                <div class="col-xs-2">
+                    <input style="width:100%;" type="text" name="Ewd" value="" />
+                    <input style="width:100%;" type="text" name="Dsr" value="" />
+                    <input style="width:100%;" type="text" name="Inside" value="" />
+                    <input style="width:100%;" type="text" name="Plate" value="" />
+                    <input style="width:100%;" type="text" name="IdFrontal" value="" />
+                    <input style="width:100%;" type="text" name="FinalPacking" value="" />
+                    <input style="width:100%;" type="text" name="TurnTest" value="" />
+                    <input style="width:100%;" type="text" name="Ground" value="" />
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>DATABASE TEST VERSION</strong></p>
+                    <p><strong>WAS & SEQUENCE VERSION</strong></p>
+                    <p><strong>45° & CUT EDGES</strong></p>
+                    <p><strong>ADDED FILES TO F.G</strong></p>
+                    <p><strong>FRONT ID = PLATE ID</strong></p>
+                    <p><strong>DOOR LABELS</strong></p>
+                    <p><strong>WIRE TAGs FROM-TO</strong></p>
+                </div>
+                <div class="col-xs-2">
+                    <input style="width:100%;" type="text" name="DatabaseTest" value="" />
+                    <input style="width:100%;" type="text" name="Was" value="" />
+                    <input style="width:100%;" type="text" name="CutEdges" value="" />
+                    <input style="width:100%;" type="text" name="AddedFiles" value="" />
+                    <input style="width:100%;" type="text" name="FrontId" value="" />
+                    <input style="width:100%;" type="text" name="DoorLabels" value="" />
+                    <input style="width:100%;" type="text" name="WireTags" value="" />
+                </div>
+            </div>
+        </div>
 
     <!--Boton para enviar informacion al PDF-->
     <input type="submit" name="enviar" value="Enviar" />
